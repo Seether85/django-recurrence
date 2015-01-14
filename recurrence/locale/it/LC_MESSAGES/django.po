@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Django Recurrence 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-14 15:16+0100\n"
+"PO-Revision-Date: 2015-01-13 15:30+0100\n"
+"Last-Translator: Simone Tombesi <seether85@gmail.com>\n"
+"Language-Team:  <seether85@gmail.com>\n"
+"Language: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: apps/recurrence/base.py:1088
+msgid "annually"
+msgstr "annualmente"
+
+#: apps/recurrence/base.py:1088
+msgid "monthly"
+msgstr "mensilmente"
+
+#: apps/recurrence/base.py:1088
+msgid "weekly"
+msgstr "settimanalmente"
+
+#: apps/recurrence/base.py:1088
+msgid "daily"
+msgstr "giornalmente"
+
+#: apps/recurrence/base.py:1089
+msgid "hourly"
+msgstr "ogni ora"
+
+#: apps/recurrence/base.py:1089
+msgid "minutely"
+msgstr "ogni minuto"
+
+#: apps/recurrence/base.py:1089
+msgid "secondly"
+msgstr "ogni secondo"
+
+#: apps/recurrence/base.py:1092
+msgid "years"
+msgstr "anni"
+
+#: apps/recurrence/base.py:1092
+msgid "months"
+msgstr "mesi"
+
+#: apps/recurrence/base.py:1092
+msgid "weeks"
+msgstr "settimane"
+
+#: apps/recurrence/base.py:1092
+msgid "days"
+msgstr "giorni"
+
+#: apps/recurrence/base.py:1093
+msgid "hours"
+msgstr "ore"
+
+#: apps/recurrence/base.py:1093
+msgid "minutes"
+msgstr "minuti"
+
+#: apps/recurrence/base.py:1093
+msgid "seconds"
+msgstr "secondi"
+
+#: apps/recurrence/base.py:1098
+#, python-format
+msgid "1st %(weekday)s"
+msgstr "1° %(weekday)s"
+
+#: apps/recurrence/base.py:1099
+#, python-format
+msgid "2nd %(weekday)s"
+msgstr "2° %(weekday)s"
+
+#: apps/recurrence/base.py:1100
+#, python-format
+msgid "3rd %(weekday)s"
+msgstr "3° %(weekday)s"
+
+#: apps/recurrence/base.py:1101 apps/recurrence/base.py:1120
+#, python-format
+msgid "last %(weekday)s"
+msgstr "ultimo %(weekday)s"
+
+#: apps/recurrence/base.py:1102
+#, python-format
+msgid "2nd last %(weekday)s"
+msgstr "penultimo/a %(weekday)s"
+
+#: apps/recurrence/base.py:1103
+#, python-format
+msgid "3rd last %(weekday)s"
+msgstr "terzultimo/a %(weekday)s"
+
+#: apps/recurrence/base.py:1106
+msgid "Mon"
+msgstr "lun"
+
+#: apps/recurrence/base.py:1106
+msgid "Tue"
+msgstr "mar"
+
+#: apps/recurrence/base.py:1106
+msgid "Wed"
+msgstr "mer"
+
+#: apps/recurrence/base.py:1107
+msgid "Thu"
+msgstr "gio"
+
+#: apps/recurrence/base.py:1107
+msgid "Fri"
+msgstr "ven"
+
+#: apps/recurrence/base.py:1107
+msgid "Sat"
+msgstr "sab"
+
+#: apps/recurrence/base.py:1107
+msgid "Sun"
+msgstr "dom"
+
+#: apps/recurrence/base.py:1110
+msgid "Jan"
+msgstr "gen"
+
+#: apps/recurrence/base.py:1110
+msgid "Feb"
+msgstr "feb"
+
+#: apps/recurrence/base.py:1110
+msgid "Mar"
+msgstr "mar"
+
+#: apps/recurrence/base.py:1110
+msgid "Apr"
+msgstr "apr"
+
+#: apps/recurrence/base.py:1111 apps/recurrence/choices.py:32
+msgctxt "3 letter month"
+msgid "May"
+msgstr "mag"
+
+#: apps/recurrence/base.py:1111
+msgid "Jun"
+msgstr "giu"
+
+#: apps/recurrence/base.py:1111
+msgid "Jul"
+msgstr "lug"
+
+#: apps/recurrence/base.py:1111
+msgid "Aug"
+msgstr "ago"
+
+#: apps/recurrence/base.py:1112
+msgid "Sep"
+msgstr "set"
+
+#: apps/recurrence/base.py:1112
+msgid "Oct"
+msgstr "ott"
+
+#: apps/recurrence/base.py:1112
+msgid "Nov"
+msgstr "nov"
+
+#: apps/recurrence/base.py:1112
+msgid "Dec"
+msgstr "dic"
+
+#: apps/recurrence/base.py:1117
+#, python-format
+msgid "first %(weekday)s"
+msgstr "primo/a %(weekday)s"
+
+#: apps/recurrence/base.py:1118
+#, python-format
+msgid "second %(weekday)s"
+msgstr "secondo/a %(weekday)s"
+
+#: apps/recurrence/base.py:1119
+#, python-format
+msgid "third %(weekday)s"
+msgstr "terzo/a %(weekday)s"
+
+#: apps/recurrence/base.py:1121
+#, python-format
+msgid "second last %(weekday)s"
+msgstr "penultimo/a %(weekday)s"
+
+#: apps/recurrence/base.py:1122
+#, python-format
+msgid "third last %(weekday)s"
+msgstr "terzultimo/a %(weekday)s"
+
+#: apps/recurrence/base.py:1125 apps/recurrence/choices.py:18
+msgid "Monday"
+msgstr "lunedì"
+
+#: apps/recurrence/base.py:1125 apps/recurrence/choices.py:19
+msgid "Tuesday"
+msgstr "martedì"
+
+#: apps/recurrence/base.py:1125 apps/recurrence/choices.py:20
+msgid "Wednesday"
+msgstr "mercoledì"
+
+#: apps/recurrence/base.py:1126 apps/recurrence/choices.py:21
+msgid "Thursday"
+msgstr "giovedì"
+
+#: apps/recurrence/base.py:1126 apps/recurrence/choices.py:22
+msgid "Friday"
+msgstr "venerdì"
+
+#: apps/recurrence/base.py:1126 apps/recurrence/choices.py:23
+msgid "Saturday"
+msgstr "sabato"
+
+#: apps/recurrence/base.py:1126 apps/recurrence/choices.py:24
+msgid "Sunday"
+msgstr "domenica"
+
+#: apps/recurrence/base.py:1129 apps/recurrence/choices.py:28
+msgid "January"
+msgstr "gennaio"
+
+#: apps/recurrence/base.py:1129 apps/recurrence/choices.py:29
+msgid "February"
+msgstr "febbraio"
+
+#: apps/recurrence/base.py:1129 apps/recurrence/choices.py:30
+msgid "March"
+msgstr "marzo"
+
+#: apps/recurrence/base.py:1129 apps/recurrence/choices.py:31
+msgid "April"
+msgstr "aprile"
+
+#: apps/recurrence/base.py:1130
+msgctxt "full month"
+msgid "May"
+msgstr "maggio"
+
+#: apps/recurrence/base.py:1130 apps/recurrence/choices.py:33
+msgid "June"
+msgstr "giugno"
+
+#: apps/recurrence/base.py:1130 apps/recurrence/choices.py:34
+msgid "July"
+msgstr "luglio"
+
+#: apps/recurrence/base.py:1130 apps/recurrence/choices.py:35
+msgid "August"
+msgstr "agosto"
+
+#: apps/recurrence/base.py:1131 apps/recurrence/choices.py:36
+msgid "September"
+msgstr "settembre"
+
+#: apps/recurrence/base.py:1131 apps/recurrence/choices.py:37
+msgid "October"
+msgstr "ottobre"
+
+#: apps/recurrence/base.py:1131 apps/recurrence/choices.py:38
+msgid "November"
+msgstr "novembre"
+
+#: apps/recurrence/base.py:1131 apps/recurrence/choices.py:39
+msgid "December"
+msgstr "dicembre"
+
+#: apps/recurrence/base.py:1149 apps/recurrence/base.py:1164
+#: apps/recurrence/base.py:1174 apps/recurrence/base.py:1187
+#: apps/recurrence/base.py:1205
+msgid ", "
+msgstr ""
+
+#: apps/recurrence/base.py:1155
+#, python-format
+msgid "every %(number)s %(freq)s"
+msgstr "tutti/e i/le %(number)s %(freq)s"
+
+#: apps/recurrence/base.py:1166 apps/recurrence/base.py:1190
+#, python-format
+msgid "each %(items)s"
+msgstr "ogni %(items)s"
+
+#: apps/recurrence/base.py:1169 apps/recurrence/base.py:1178
+#: apps/recurrence/base.py:1182
+#, python-format
+msgid "on the %(items)s"
+msgstr "il/la %(items)s"
+
+#: apps/recurrence/base.py:1197
+msgid "occuring once"
+msgstr "avviene una sola volta"
+
+#: apps/recurrence/base.py:1199
+#, python-format
+msgid "occuring %(number)s times"
+msgstr "avviene %(number)s volte"
+
+#: apps/recurrence/base.py:1202
+#, python-format
+msgid "until %(date)s"
+msgstr "fino al %(date)s"
+
+#: apps/recurrence/choices.py:8
+msgid "Secondly"
+msgstr "Ogni secondo"
+
+#: apps/recurrence/choices.py:9
+msgid "Minutely"
+msgstr "Ogni minuto"
+
+#: apps/recurrence/choices.py:10
+msgid "Hourly"
+msgstr "Ogni ora"
+
+#: apps/recurrence/choices.py:11
+msgid "Daily"
+msgstr "Ogni giorno"
+
+#: apps/recurrence/choices.py:12
+msgid "Weekly"
+msgstr "Ogni settimana"
+
+#: apps/recurrence/choices.py:13
+msgid "Monthly"
+msgstr "Ogni mese"
+
+#: apps/recurrence/choices.py:14
+msgid "Yearly"
+msgstr "Ogni anno"
+
+#: apps/recurrence/choices.py:45
+msgid "Inclusion"
+msgstr "Inclusione"
+
+#: apps/recurrence/choices.py:46
+msgid "Exclusion"
+msgstr "Esclusione"
+
+#: apps/recurrence/forms.py:71
+msgid "Invalid frequency."
+msgstr "Frequenza errata."
+
+#: apps/recurrence/forms.py:73
+#, python-format
+msgid "Max rules exceeded. The limit is %(limit)s"
+msgstr "Numero massimo di regole superato (%(limit)s)."
+
+#: apps/recurrence/forms.py:75
+#, python-format
+msgid "Max exclusion rules exceeded. The limit is %(limit)s"
+msgstr "Numero massimo di regole di inclusione superato (%(limit)s)."
+
+#: apps/recurrence/forms.py:77
+#, python-format
+msgid "Max dates exceeded. The limit is %(limit)s"
+msgstr "Numero massimo di date superato (%(limit)s)."
+
+#: apps/recurrence/forms.py:79
+#, python-format
+msgid "Max exclusion dates exceeded. The limit is %(limit)s"
+msgstr "Numero massimo di regole di esclusione superato (%(limit)s)."
+
