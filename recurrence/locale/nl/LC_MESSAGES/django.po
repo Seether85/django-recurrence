@@ -7,390 +7,398 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Django Recurrence 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-09 21:09+0100\n"
+"POT-Creation-Date: 2009-02-05 13:25-0600\n"
 "PO-Revision-Date: 2014-06-25 21:51+0100\n"
 "Last-Translator: Bart Heesink <bheesink@jouwomgeving.nl>\n"
 "Language-Team:  <bheesink@jouwomgeving.nl>\n"
-"Language: Dutch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
+"Language: Dutch\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: apps/recurrence/base.py:1087
+#: base.py:871
 msgid "annually"
 msgstr "jaarlijks"
 
-#: apps/recurrence/base.py:1087
+#: base.py:871
 msgid "monthly"
 msgstr "maandelijks"
 
-#: apps/recurrence/base.py:1087
+#: base.py:871
 msgid "weekly"
 msgstr "wekelijks"
 
-#: apps/recurrence/base.py:1087
+#: base.py:871
 msgid "daily"
 msgstr "dagelijks"
 
-#: apps/recurrence/base.py:1088
+#: base.py:872
 msgid "hourly"
 msgstr "elk uur"
 
-#: apps/recurrence/base.py:1088
+#: base.py:872
 msgid "minutely"
 msgstr "elke minuut"
 
-#: apps/recurrence/base.py:1088
+#: base.py:872
 msgid "secondly"
 msgstr "elke seconde"
 
-#: apps/recurrence/base.py:1091
+#: base.py:875
+msgid "year"
+msgstr "jaar"
+
+#: base.py:875
+msgid "month"
+msgstr "maand"
+
+#: base.py:875
+msgid "week"
+msgstr "week"
+
+#: base.py:875
+msgid "day"
+msgstr "dag"
+
+#: base.py:876
+msgid "hour"
+msgstr "uur"
+
+#: base.py:876
+msgid "minute"
+msgstr "minuut"
+
+#: base.py:876
+msgid "second"
+msgstr "seconde"
+
+#: base.py:879
 msgid "years"
 msgstr "jaren"
 
-#: apps/recurrence/base.py:1091
+#: base.py:879
 msgid "months"
 msgstr "maanden"
 
-#: apps/recurrence/base.py:1091
+#: base.py:879
 msgid "weeks"
 msgstr "weken"
 
-#: apps/recurrence/base.py:1091
+#: base.py:879
 msgid "days"
 msgstr "dagen"
 
-#: apps/recurrence/base.py:1092
+#: base.py:880
 msgid "hours"
 msgstr "uren"
 
-#: apps/recurrence/base.py:1092
+#: base.py:880
 msgid "minutes"
 msgstr "minuten"
 
-#: apps/recurrence/base.py:1092
+#: base.py:880
 msgid "seconds"
 msgstr "seconden"
 
-#: apps/recurrence/base.py:1097
+#: base.py:885
 #, python-format
 msgid "1st %(weekday)s"
 msgstr "1e %(weekday)s"
 
-#: apps/recurrence/base.py:1098
+#: base.py:886
 #, python-format
 msgid "2nd %(weekday)s"
 msgstr "2e %(weekday)s"
 
-#: apps/recurrence/base.py:1099
+#: base.py:887
 #, python-format
 msgid "3rd %(weekday)s"
 msgstr "3e %(weekday)s"
 
-#: apps/recurrence/base.py:1100 apps/recurrence/base.py:1119
+#: base.py:888 base.py:907
 #, python-format
 msgid "last %(weekday)s"
 msgstr "laatste %(weekday)s"
 
-#: apps/recurrence/base.py:1101
+#: base.py:889
 #, python-format
 msgid "2nd last %(weekday)s"
 msgstr "2 na laatste %(weekday)s"
 
-#: apps/recurrence/base.py:1102
+#: base.py:890
 #, python-format
 msgid "3rd last %(weekday)s"
 msgstr "3 na laatste %(weekday)s"
 
-#: apps/recurrence/base.py:1105
+#: base.py:893
 msgid "Mon"
 msgstr "ma"
 
-#: apps/recurrence/base.py:1105
+#: base.py:893
 msgid "Tue"
 msgstr "di"
 
-#: apps/recurrence/base.py:1105
+#: base.py:893
 msgid "Wed"
 msgstr "wo"
 
-#: apps/recurrence/base.py:1106
+#: base.py:894
 msgid "Thu"
 msgstr "do"
 
-#: apps/recurrence/base.py:1106
+#: base.py:894
 msgid "Fri"
 msgstr "vr"
 
-#: apps/recurrence/base.py:1106
+#: base.py:894
 msgid "Sat"
 msgstr "za"
 
-#: apps/recurrence/base.py:1106
+#: base.py:894
 msgid "Sun"
 msgstr "zo"
 
-#: apps/recurrence/base.py:1109
+#: base.py:897
 msgid "Jan"
 msgstr "jan"
 
-#: apps/recurrence/base.py:1109
+#: base.py:897
 msgid "Feb"
 msgstr "feb"
 
-#: apps/recurrence/base.py:1109
+#: base.py:897
 msgid "Mar"
 msgstr "mrt"
 
-#: apps/recurrence/base.py:1109
+#: base.py:897
 msgid "Apr"
 msgstr "apr"
 
-#: apps/recurrence/base.py:1110 apps/recurrence/base.py:1129
-#: apps/recurrence/choices.py:31
+#: base.py:898 base.py:917 choices.py:31
 msgid "May"
 msgstr "mei"
 
-#: apps/recurrence/base.py:1110
+#: base.py:898
 msgid "Jun"
 msgstr "jun"
 
-#: apps/recurrence/base.py:1110
+#: base.py:898
 msgid "Jul"
 msgstr "jul"
 
-#: apps/recurrence/base.py:1110
+#: base.py:898
 msgid "Aug"
 msgstr "aug"
 
-#: apps/recurrence/base.py:1111
+#: base.py:899
 msgid "Sep"
 msgstr "sep"
 
-#: apps/recurrence/base.py:1111
+#: base.py:899
 msgid "Oct"
 msgstr "okt"
 
-#: apps/recurrence/base.py:1111
+#: base.py:899
 msgid "Nov"
 msgstr "nov"
 
-#: apps/recurrence/base.py:1111
+#: base.py:899
 msgid "Dec"
 msgstr "dec"
 
-#: apps/recurrence/base.py:1116
+#: base.py:904
 #, python-format
 msgid "first %(weekday)s"
 msgstr "eerste %(weekday)s"
 
-#: apps/recurrence/base.py:1117
+#: base.py:905
 #, python-format
 msgid "second %(weekday)s"
 msgstr "tweede %(weekday)s"
 
-#: apps/recurrence/base.py:1118
+#: base.py:906
 #, python-format
 msgid "third %(weekday)s"
 msgstr "derde %(weekday)s"
 
-#: apps/recurrence/base.py:1120
+#: base.py:906
+#, python-format
+msgid "fourth %(weekday)s"
+msgstr "vierde %(weekday)s"
+
+#: base.py:908
 #, python-format
 msgid "second last %(weekday)s"
 msgstr "twee na laatste %(weekday)s"
 
-#: apps/recurrence/base.py:1121
+#: base.py:909
 #, python-format
 msgid "third last %(weekday)s"
 msgstr "drie na laatste %(weekday)s"
 
-#: apps/recurrence/base.py:1124 apps/recurrence/choices.py:17
+#: base.py:912 choices.py:17
 msgid "Monday"
 msgstr "maandag"
 
-#: apps/recurrence/base.py:1124 apps/recurrence/choices.py:18
+#: base.py:912 choices.py:18
 msgid "Tuesday"
 msgstr "dinsdag"
 
-#: apps/recurrence/base.py:1124 apps/recurrence/choices.py:19
+#: base.py:912 choices.py:19
 msgid "Wednesday"
 msgstr "woensdag"
 
-#: apps/recurrence/base.py:1125 apps/recurrence/choices.py:20
+#: base.py:913 choices.py:20
 msgid "Thursday"
 msgstr "donderdag"
 
-#: apps/recurrence/base.py:1125 apps/recurrence/choices.py:21
+#: base.py:913 choices.py:21
 msgid "Friday"
 msgstr "vrijdag"
 
-#: apps/recurrence/base.py:1125 apps/recurrence/choices.py:22
+#: base.py:913 choices.py:22
 msgid "Saturday"
 msgstr "zaterdag"
 
-#: apps/recurrence/base.py:1125 apps/recurrence/choices.py:23
+#: base.py:913 choices.py:23
 msgid "Sunday"
 msgstr "zondag"
 
-#: apps/recurrence/base.py:1128 apps/recurrence/choices.py:27
+#: base.py:916 choices.py:27
 msgid "January"
 msgstr "januari"
 
-#: apps/recurrence/base.py:1128 apps/recurrence/choices.py:28
+#: base.py:916 choices.py:28
 msgid "February"
 msgstr "februari"
 
-#: apps/recurrence/base.py:1128 apps/recurrence/choices.py:29
+#: base.py:916 choices.py:29
 msgid "March"
 msgstr "maart"
 
-#: apps/recurrence/base.py:1128 apps/recurrence/choices.py:30
+#: base.py:916 choices.py:30
 msgid "April"
 msgstr "april"
 
-#: apps/recurrence/base.py:1129 apps/recurrence/choices.py:32
+#: base.py:917 choices.py:32
 msgid "June"
 msgstr "juni"
 
-#: apps/recurrence/base.py:1129 apps/recurrence/choices.py:33
+#: base.py:917 choices.py:33
 msgid "July"
 msgstr "juli"
 
-#: apps/recurrence/base.py:1129 apps/recurrence/choices.py:34
+#: base.py:917 choices.py:34
 msgid "August"
 msgstr "augustus"
 
-#: apps/recurrence/base.py:1130 apps/recurrence/choices.py:35
+#: base.py:918 choices.py:35
 msgid "September"
 msgstr "september"
 
-#: apps/recurrence/base.py:1130 apps/recurrence/choices.py:36
+#: base.py:918 choices.py:36
 msgid "October"
 msgstr "oktober"
 
-#: apps/recurrence/base.py:1130 apps/recurrence/choices.py:37
+#: base.py:918 choices.py:37
 msgid "November"
 msgstr "november"
 
-#: apps/recurrence/base.py:1130 apps/recurrence/choices.py:38
+#: base.py:918 choices.py:38
 msgid "December"
 msgstr "december"
 
-#: apps/recurrence/base.py:1148 apps/recurrence/base.py:1163
-#: apps/recurrence/base.py:1173 apps/recurrence/base.py:1186
-#: apps/recurrence/base.py:1204
+#: base.py:936 base.py:951 base.py:974 base.py:992
 msgid ", "
 msgstr ""
 
-#: apps/recurrence/base.py:1154
+#: base.py:942
 #, python-format
 msgid "every %(number)s %(freq)s"
 msgstr "elke %(number)s %(freq)s"
 
-#: apps/recurrence/base.py:1165 apps/recurrence/base.py:1189
+#: base.py:953 base.py:977
 #, python-format
 msgid "each %(items)s"
 msgstr "iedere %(items)s"
 
-#: apps/recurrence/base.py:1168 apps/recurrence/base.py:1177
-#: apps/recurrence/base.py:1181
+#: base.py:956 base.py:965 base.py:969
 #, python-format
 msgid "on the %(items)s"
 msgstr "op de %(items)s"
 
-#: apps/recurrence/base.py:1196
+#: base.py:984
 msgid "occuring once"
 msgstr "éénmalig"
 
-#: apps/recurrence/base.py:1198
+#: base.py:986
 #, python-format
 msgid "occuring %(number)s times"
 msgstr "%(number)s keer herhalen"
 
-#: apps/recurrence/base.py:1201
+#: base.py:989
 #, python-format
 msgid "until %(date)s"
 msgstr "tot %(date)s"
 
-#: apps/recurrence/choices.py:7
+#: choices.py:7
 msgid "Secondly"
 msgstr "Elke seconde"
 
-#: apps/recurrence/choices.py:8
+#: choices.py:8
 msgid "Minutely"
 msgstr "Elke minuut"
 
-#: apps/recurrence/choices.py:9
+#: choices.py:9
 msgid "Hourly"
 msgstr "Elk uur"
 
-#: apps/recurrence/choices.py:10
+#: choices.py:10
 msgid "Daily"
 msgstr "Dagelijks"
 
-#: apps/recurrence/choices.py:11
+#: choices.py:11
 msgid "Weekly"
 msgstr "Wekelijks"
 
-#: apps/recurrence/choices.py:12
+#: choices.py:12
 msgid "Monthly"
 msgstr "Maandelijks"
 
-#: apps/recurrence/choices.py:13
+#: choices.py:13
 msgid "Yearly"
 msgstr "Jaarlijks"
 
-#: apps/recurrence/choices.py:44
+#: choices.py:44
 msgid "Inclusion"
 msgstr "Inclusief"
 
-#: apps/recurrence/choices.py:45
+#: choices.py:45
 msgid "Exclusion"
 msgstr "Uitgezonderd"
 
-#: apps/recurrence/forms.py:71
+#: forms.py:64
 msgid "Invalid frequency."
 msgstr "Ongeldige herhaling."
 
-#: apps/recurrence/forms.py:73
+#: forms.py:66
 #, python-format
 msgid "Max rules exceeded. The limit is %(limit)s"
 msgstr "Maximaal aantal van %(limit)s regels is overschreden."
 
-#: apps/recurrence/forms.py:75
+#: forms.py:68
 #, python-format
 msgid "Max exclusion rules exceeded. The limit is %(limit)s"
 msgstr "Maximaal aantal van %(limit)s uitgezonderde regels is overschreden."
 
-#: apps/recurrence/forms.py:77
+#: forms.py:70
 #, python-format
 msgid "Max dates exceeded. The limit is %(limit)s"
 msgstr "Maximaal aantal van %(limit)s data overschreden."
 
-#: apps/recurrence/forms.py:79
+#: forms.py:72
 #, python-format
 msgid "Max exclusion dates exceeded. The limit is %(limit)s"
 msgstr "Maximaal aantal van %(limit)s uitgezonderde data is overschreden."
-
-#~ msgid "year"
-#~ msgstr "jaar"
-
-#~ msgid "month"
-#~ msgstr "maand"
-
-#~ msgid "week"
-#~ msgstr "week"
-
-#~ msgid "day"
-#~ msgstr "dag"
-
-#~ msgid "hour"
-#~ msgstr "uur"
-
-#~ msgid "minute"
-#~ msgstr "minuut"
-
-#~ msgid "second"
-#~ msgstr "seconde"

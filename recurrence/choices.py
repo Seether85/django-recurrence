@@ -1,5 +1,4 @@
-from django.utils.translation import ugettext_lazy as _
-from django.utils.translation import pgettext
+from django.utils.translation import ugettext_lazy as _, pgettext_lazy as _p
 
 import recurrence
 
@@ -29,7 +28,7 @@ MONTH_CHOICES = (
     (recurrence.FEBRUARY, _('February')),
     (recurrence.MARCH, _('March')),
     (recurrence.APRIL, _('April')),
-    (recurrence.MAY, pgettext('full month', 'May')),
+    (recurrence.MAY, _p('full month', 'May')),
     (recurrence.JUNE, _('June')),
     (recurrence.JULY, _('July')),
     (recurrence.AUGUST, _('August')),
