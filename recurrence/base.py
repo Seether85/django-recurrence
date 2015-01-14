@@ -17,7 +17,8 @@ import pytz
 import dateutil.rrule
 from django.conf import settings
 from django.utils import dateformat
-from django.utils.translation import ugettext as _, pgettext as _p
+from django.utils.translation import ugettext as _
+from django.utils.translation import pgettext
 from django.utils.six import string_types
 
 from recurrence import exceptions
@@ -1107,7 +1108,7 @@ def rule_to_text(rule, short=False):
         )
         months_display = (
             _('Jan'), _('Feb'), _('Mar'), _('Apr'),
-            _p('month name', 'May'), _('Jun'), _('Jul'), _('Aug'),
+            pgettext('3 letter month', 'May'), _('Jun'), _('Jul'), _('Aug'),
             _('Sep'), _('Oct'), _('Nov'), _('Dec'),
         )
 
@@ -1116,7 +1117,6 @@ def rule_to_text(rule, short=False):
             1: _('first %(weekday)s'),
             2: _('second %(weekday)s'),
             3: _('third %(weekday)s'),
-            4: _('fourth %(weekday)s'),
             -1: _('last %(weekday)s'),
             -2: _('second last %(weekday)s'),
             -3: _('third last %(weekday)s'),
@@ -1127,7 +1127,7 @@ def rule_to_text(rule, short=False):
         )
         months_display = (
             _('January'), _('February'), _('March'), _('April'),
-            _p('month name', 'May'), _('June'), _('July'), _('August'),
+            pgettext('full month', 'May'), _('June'), _('July'), _('August'),
             _('September'), _('October'), _('November'), _('December'),
         )
 
@@ -1161,11 +1161,8 @@ def rule_to_text(rule, short=False):
 
     if rule.freq == YEARLY:
         if rule.bymonth:
-            # bymonths are 1-indexed (January is 1), months_display
-            # are 0-indexed (January is 0).
             items = _(', ').join(
-                [months_display[month] for month in
-                 [month_index - 1 for month_index in rule.bymonth]])
+                [months_display[month] for month in rule.bymonth])
             parts.append(_('each %(items)s') % {'items': items})
         if rule.byday or rule.bysetpos:
             parts.append(

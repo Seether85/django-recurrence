@@ -146,7 +146,6 @@ recurrence.Rule.prototype = {
                 var items = recurrence.array.foreach(
                     this.bymonthday, function(day, i) {
                         var dt = new Date();
-                        dt.setMonth(0);
                         dt.setDate(day);
                         return recurrence.date.format(dt, '%j%S');
                 });
@@ -436,11 +435,16 @@ recurrence.DateFormat.prototype = {
 
     S: function() {
         var day = this.data.getDate();
-        var ordinal_indicator = recurrence.display.ordinal_indicator;
-        var language_code = recurrence.language_code;
-        if (language_code in ordinal_indicator)
-            return ordinal_indicator[language_code](day);
-        return '';
+        if (day == 11 || day == 12 || day == 13)
+            return 'th';
+        var last = day % 10;
+        if (last == 1)
+            return 'st';
+        if (last == 2)
+            return 'nd';
+        if (last == 3)
+            return 'rd';
+        return 'th';
     },
 
     t: function() {
@@ -1034,19 +1038,13 @@ recurrence.display.weekdays_short = [
     gettext('Fri'), gettext('Sat'), gettext('Sun')
 ];
 recurrence.display.weekdays_oneletter = [
-    pgettext('Monday first letter', 'M'),
-    pgettext('Tuesday first letter', 'T'),
-    pgettext('Wednesday first letter', 'W'),
-    pgettext('Thursday first letter', 'T'),
-    pgettext('Friday first letter', 'F'),
-    pgettext('Saturday first letter', 'S'),
-    pgettext('Sunday first letter', 'S')
+    gettext('M'), gettext('T'), gettext('W'), gettext('T'),
+    gettext('F'), gettext('S'), gettext('S')
 ];
 recurrence.display.weekdays_position = {
     '1': gettext('first %(weekday)s'),
     '2': gettext('second %(weekday)s'),
     '3': gettext('third %(weekday)s'),
-    '4': gettext('fourth %(weekday)s'),
     '-1': gettext('last %(weekday)s'),
     '-2': gettext('second last %(weekday)s'),
     '-3': gettext('third last %(weekday)s')
@@ -1055,50 +1053,29 @@ recurrence.display.weekdays_position_short = {
     '1': gettext('1st %(weekday)s'),
     '2': gettext('2nd %(weekday)s'),
     '3': gettext('3rd %(weekday)s'),
-    '4': gettext('4th %(weekday)s'),
     '-1': gettext('last %(weekday)s'),
     '-2': gettext('2nd last %(weekday)s'),
     '-3': gettext('3rd last %(weekday)s')
 };
 recurrence.display.months = [
     gettext('January'), gettext('February'), gettext('March'),
-    gettext('April'), pgettext('month name', 'May'), gettext('June'),
+    gettext('April'), pgettext('full month', 'May'), gettext('June'),
     gettext('July'), gettext('August'), gettext('September'),
     gettext('October'), gettext('November'), gettext('December')
 ];
 recurrence.display.months_short = [
     gettext('Jan'), gettext('Feb'), gettext('Mar'),
-    gettext('Apr'), pgettext('month name', 'May'), gettext('Jun'),
+    gettext('April'), pgettext('3 letter month', 'May'), gettext('June'),
     gettext('Jul'), gettext('Aug'), gettext('Sep'),
     gettext('Oct'), gettext('Nov'), gettext('Dec')
 ];
 recurrence.display.months_ap = [
     gettext('Jan.'), gettext('Feb.'), gettext('March'),
-    gettext('April'), pgettext('month name', 'May'), gettext('June'),
+    gettext('April'), pgettext('3 letter month', 'May'), gettext('June'),
     gettext('July'), gettext('Aug.'), gettext('Sept.'),
     gettext('Oct.'), gettext('Nov.'), gettext('Dec.')
 ];
 recurrence.display.ampm = {
     'am': gettext('a.m.'), 'pm': gettext('p.m.'),
     'AM': gettext('AM'), 'PM': gettext('PM')
-};
-
-recurrence.display.ordinal_indicator = {
-    'en-us': function(day) {
-        if (day == 11 || day == 12 || day == 13)
-            return 'th';
-        var last = day % 10;
-        if (last == 1)
-            return 'st';
-        if (last == 2)
-            return 'nd';
-        if (last == 3)
-            return 'rd';
-        return 'th';
-    },
-    'fr-FR': function(day) {
-        if (day == 1)
-            return 'er';
-        return '';
-    }
 };
